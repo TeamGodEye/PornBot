@@ -15,10 +15,10 @@ async def start_msg(client, m: Message):
             [
                     [
                         InlineKeyboardButton(
-                            text="Support", url="t.me/TheeDecode"
+                            text="Support", url="t.me/GodEyeSupport"
                         ),
                         InlineKeyboardButton(
-                            text="UpDate", url="https://t.me/OfficialDeCode"
+                            text="UpDate", url="https://t.me/GodEyeUpdate"
                         ),
                     ],
                     [InlineKeyboardButton(text="Search 🎥", switch_inline_query_current_chat=query)],
@@ -36,10 +36,10 @@ async def help_msg(client, m: Message):
             [
                     [
                         InlineKeyboardButton(
-                            text="Support", url="t.me/TheeDecode"
+                            text="Support", url="t.me/GodEyeSupport"
                         ),
                         InlineKeyboardButton(
-                            text="UpDate", url="https://t.me/OfficialDeCode"
+                            text="UpDate", url="https://t.me/GodEyeUpdate"
                         ),
                     ],
                     [InlineKeyboardButton(text="Search 🎥", switch_inline_query_current_chat=query)],
